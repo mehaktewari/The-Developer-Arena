@@ -1,6 +1,6 @@
-# 🚀 Developer Arena Internship — Python Programming Journey
+# 🚀The Developer Arena Internship — Python Programming Journey
 
-Welcome to my **Developer Arena Internship Repository**, where I document my 8-week journey of mastering Python programming and building practical, real-world projects.  
+~Welcome to my **The Developer Arena Internship Repository**, where I document my 8-week journey of mastering Python programming and building practical, real-world projects.  
 This internship focuses on strengthening my programming foundation through weekly tasks, hands-on practice, and guided project development.
 
 ---
@@ -20,8 +20,8 @@ This internship is designed to help me:
 |    Week    |           Focus Area           |         Project Title        |    Status   |
 |------------|--------------------------------|------------------------------|-------------|
 | ✅ Week 1 | Python Basics                  | Personal Information Manager | Completed   |
-| 🟡 Week 2 | Control Flow & Data Structures | Student Grade Calculator     | In Progress |
-| ⏳ Week 3 | Functions & Dictionaries       | Contact Management System    | Pending     |
+| ✅ Week 2 | Control Flow & Data Structures | Student Grade Calculator     | Completed |
+| 🟡 Week 3 | Functions & Dictionaries       | Contact Management System    | In Progress     |
 | ⏳ Week 4 | File Handling                  | Personal Finance Tracker     | Pending     |
 | ⏳ Week 5 | Object-Oriented Programming    | Library Management System    | Pending     |
 | ⏳ Week 6 | External Libraries & APIs      | Weather Application          | Pending     |
