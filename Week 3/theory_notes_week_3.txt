@@ -1,0 +1,79 @@
+📘Week 3 – Functions & Dictionaries (Theory Notes)
+
+1. Functions – Creating Reusable Code Blocks
+- Functions allow us to group a set of statements together so they can be executed whenever needed.
+- They help avoid repetition and make programs cleaner, organized, and easier to maintain.
+- A function is defined using the def keyword, followed by the function name and parentheses.
+
+Example:
+def greet():
+    print("Hello, welcome!")
+
+------------------------------------------------------------
+
+2. Function Parameters and Return Values
+- Parameters allow functions to accept data from outside.
+- A return statement is used to send a value back to the caller.
+
+Example:
+def add(a, b):
+    return a + b
+
+- Here, a and b are parameters and return a + b sends the result back.
+
+------------------------------------------------------------
+
+3. Dictionaries – Key-Value Data Storage
+- Dictionaries store data in key-value pairs, making it easy to access and organize information.
+- They are ideal for storing structured data like student records, contact lists, or product details.
+
+Example:
+student = {
+    "name": "Alex",
+    "age": 20,
+    "grade": "A"
+}
+
+- Data is accessed using keys, not indexes.
+
+------------------------------------------------------------
+
+4. Working With Strings – Methods and Formatting
+- Strings come with built-in methods that help modify or analyze text. Common methods include:
+~ upper() → converts text to uppercase
+~ lower() → converts text to lowercase
+~ split() → breaks the string into a list of words
+~ replace() → replaces part of a string
+- Python also supports f-strings for formatted output:
+
+Example:
+name = "Alex"
+print(f"Hello {name}")
+
+------------------------------------------------------------
+
+5. Scope – Local vs Global Variables
+- Local variables exist only inside a function and cannot be accessed outside it.
+- Global variables exist outside all functions and can be accessed anywhere in the program.
+
+Example:
+x = 10   # global variable
+def show():
+    y = 5  # local variable
+    print(x, y)
+
+- Understanding scope helps avoid errors and keeps code clean.
+
+------------------------------------------------------------
+
+6. Built‑in Functions and Modules
+- Python includes many built-in functions that perform useful tasks:
+~ len() → returns length
+~ type() → returns data type
+~ sum() → adds all values in a list
+~ range() → generates a range of numbers
+- Modules like math, random, and datetime provide additional powerful features.
+
+Example:
+import math
+print(math.sqrt(25))
