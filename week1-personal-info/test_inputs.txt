@@ -1,0 +1,12 @@
+
+```text
+Pizza
+Blue
+
+Burger
+Red
+
+Pasta
+Green
+
+(Used to show different test cases during testing)

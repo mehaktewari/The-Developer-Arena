@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.env
+contacts_export.csv
