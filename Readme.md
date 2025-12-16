@@ -22,10 +22,10 @@ This internship is designed to help me:
 | ✅ Week 1 | Python Basics                  | Personal Information Manager | Completed   |
 | ✅ Week 2 | Control Flow & Data Structures | Student Grade Calculator     | Completed   |
 | ✅ Week 3 | Functions & Dictionaries       | Contact Management System    | Completed   |
-| 🟡 Week 4 | File Handling                  | Personal Finance Tracker     | In Progress |
-| ⏳ Week 5 | Object-Oriented Programming    | Library Management System    | Pending     |
-| ⏳ Week 6 | External Libraries & APIs      | Weather Application          | Pending     |
-| ⏳ Week 7 | Data Analysis with Pandas      | Sales Data Analysis          | Pending     |
+| ✅ Week 4 | File Handling                  | Personal Finance Tracker     | Completed   |
+| ✅ Week 5 | Object-Oriented Programming    | Library Management System    | Completed   |
+| ✅ Week 6 | External Libraries & APIs      | Weather Application          | Completed   |
+| 🟡 Week 7 | Data Analysis with Pandas      | Sales Data Analysis          | In Progress |
 | ⏳ Week 8 | Capstone Project               | Inventory Management System  | Pending     |
 
 > 🧠 *Progress will be updated weekly as projects are completed.*
