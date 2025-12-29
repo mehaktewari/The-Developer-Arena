@@ -1,0 +1,162 @@
+PERSONAL INFORMATION MANAGER
+Week 1 – Python Basics Documentation
+===================================
+
+Author: Mehak Tewari
+Project Name: Personal Information Manager
+Language: Python
+Editor: Visual Studio Code
+
+-----------------------------------
+1. PROJECT DESCRIPTION
+-----------------------------------
+This project is my first Python program. The purpose of this project is to
+understand Python basics such as variables, data types, input/output,
+string formatting, and basic input validation.
+
+The program stores static personal information and also takes input from
+the user, then displays all information in a clean and formatted manner.
+
+-----------------------------------
+2. THEORY CONCEPTS USED
+-----------------------------------
+1. Programming Basics
+   - Understanding how instructions are executed step by step.
+
+2. Python Language
+   - Easy syntax
+   - Beginner-friendly
+   - Widely used in real-world applications
+
+3. Variables
+   - Used to store data such as name, age, city, and hobby.
+
+4. Data Types
+   - String (text data)
+   - Integer (numerical data)
+
+5. Input / Output
+   - input() for taking user input
+   - print() for displaying output
+
+6. String Formatting
+   - f-strings used to format output neatly.
+
+7. Comments
+   - Used to explain code functionality.
+
+-----------------------------------
+3. HANDS-ON TASKS COMPLETED
+-----------------------------------
+- Installed Python from python.org
+- Set up VS Code with Python extension
+- Wrote first Python program (Hello World)
+- Created variables for personal information
+- Built a simple calculator
+- Took user input and displayed output
+- Fixed syntax errors
+- Used loops for input validation
+
+-----------------------------------
+4. PROJECT FEATURES
+-----------------------------------
+- Stores static personal information
+- Takes dynamic input from the user
+- Validates empty input
+- Calculates age in months
+- Displays formatted output
+- Shows welcome and goodbye messages
+
+-----------------------------------
+5. FILE STRUCTURE
+-----------------------------------
+week1-personal-info/
+│
+├── personal_info.py
+├── documentation.txt
+├── test_inputs.txt
+└── .gitignore
+
+-----------------------------------
+6. PROGRAM LOGIC
+-----------------------------------
+1. Display welcome message
+2. Store static personal details using variables
+3. Ask user for favorite food and color
+4. Validate user input (no empty values)
+5. Calculate age in months
+6. Display all information using formatted output
+7. Display goodbye message
+
+-----------------------------------
+7. HOW TO RUN THE PROGRAM
+-----------------------------------
+1. Install Python
+2. Open terminal or command prompt
+3. Navigate to project folder
+4. Run the command:
+
+   python personal_info.py
+
+5. Enter details when prompted
+
+-----------------------------------
+8. SAMPLE OUTPUT
+-----------------------------------
+========================================
+    PERSONAL INFORMATION MANAGER
+========================================
+
+Name: John Doe
+Age: 25 years (300 months old)
+City: New York
+Hobby: Reading
+
+Favorite Food: Pizza
+Favorite Color: Blue
+
+========================================
+Thank you for using the program!
+========================================
+
+-----------------------------------
+9. TESTING DETAILS
+-----------------------------------
+Test Case 1:
+- Normal input provided
+
+Test Case 2:
+- Empty input
+- Program asks user again
+
+Test Case 3:
+- Long input values
+- Program runs without crashing
+
+-----------------------------------
+10. CHALLENGES AND SOLUTIONS
+-----------------------------------
+Challenge:
+User may enter empty input.
+
+Solution:
+Used while loop to repeat input until valid value is entered.
+
+Challenge:
+Formatting output properly.
+
+Solution:
+Used f-strings and separators for clean display.
+
+-----------------------------------
+11. LEARNING OUTCOME
+-----------------------------------
+- Learned basic Python syntax
+- Understood variables and data types
+- Learned how to take user input
+- Implemented basic validation
+- Improved logical thinking
+
+-----------------------------------
+END OF DOCUMENTATION
+-----------------------------------

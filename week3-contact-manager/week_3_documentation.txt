@@ -1,0 +1,203 @@
+CONTACT MANAGEMENT SYSTEM
+Week 3 – Functions & Dictionaries Documentation
+===============================================
+
+Author: Mehak Tewari
+Project Name: Contact Management System
+Language: Python
+Editor: Visual Studio Code
+
+------------------------------------------------
+1. PROJECT DESCRIPTION
+------------------------------------------------
+The Contact Management System is a Python-based application that allows
+users to store, manage, and organize contact information efficiently.
+It uses functions for modular code structure and dictionaries for
+storing contact data in key-value format.
+
+The system supports adding, searching, updating, deleting, and
+displaying contacts, along with file-based data persistence.
+
+------------------------------------------------
+2. THEORY CONCEPTS USED
+------------------------------------------------
+1. Functions
+   - Created reusable blocks using def keyword.
+
+2. Function Parameters
+   - Used positional and default parameters.
+
+3. Return Values
+   - Functions return validation results and search outputs.
+
+4. Dictionaries
+   - Used to store contacts as key-value pairs.
+
+5. String Methods
+   - Used strip(), lower(), upper(), split() for data cleaning.
+
+6. Scope
+   - Used local and global variables where required.
+
+7. Built-in Functions
+   - Used len(), sum(), max(), min(), enumerate().
+
+------------------------------------------------
+3. HANDS-ON TASKS COMPLETED
+------------------------------------------------
+- Created reusable functions
+- Practiced dictionary operations
+- Implemented string manipulation
+- Handled user input errors
+- Worked with file operations
+- Built menu-driven programs
+
+------------------------------------------------
+4. PROJECT FEATURES
+------------------------------------------------
+- Add new contacts with validation
+- Search contacts with partial matching
+- Update existing contact details
+- Delete contacts with confirmation
+- Display all contacts in formatted form
+- Save and load contacts using JSON files
+- Export contacts to CSV
+- Display contact statistics
+
+------------------------------------------------
+5. FILE STRUCTURE
+------------------------------------------------
+week3-contact-manager/
+│
+├── contacts_manager.py
+├── contacts_data.json
+├── documentation.txt
+├── test_contacts.py
+├── requirements.txt
+└── .gitignore
+
+------------------------------------------------
+6. CORE DATA STRUCTURE
+------------------------------------------------
+Contacts are stored in a dictionary where:
+- Key   → Contact Name
+- Value → Dictionary containing phone, email, address, group, timestamps
+
+Example:
+contacts["John Doe"] = {
+    phone: "1234567890",
+    email: "john@example.com",
+    address: "123 Main Street",
+    group: "Friends"
+}
+
+------------------------------------------------
+7. PROGRAM LOGIC
+------------------------------------------------
+1. Load contacts from file on startup
+2. Display main menu
+3. Accept user choice with validation
+4. Call respective function
+5. Perform CRUD operation
+6. Save changes to file
+7. Repeat until user exits program
+
+------------------------------------------------
+8. FUNCTIONAL MODULES
+------------------------------------------------
+- add_contact()
+- search_contact()
+- update_contact()
+- delete_contact()
+- display_all_contacts()
+- save_to_file()
+- load_from_file()
+- export_to_csv()
+- show_statistics()
+
+------------------------------------------------
+9. INPUT VALIDATION
+------------------------------------------------
+- Contact name cannot be empty
+- Phone number must contain 10–15 digits
+- Email format validated using regex
+- Menu choice validated using try-except
+
+------------------------------------------------
+10. HOW TO RUN THE PROGRAM
+------------------------------------------------
+1. Install Python
+2. Open terminal / command prompt
+3. Navigate to project folder
+4. Run the command:
+
+   python contacts_manager.py
+
+------------------------------------------------
+11. SAMPLE OUTPUT
+------------------------------------------------
+==================================================
+      CONTACT MANAGEMENT SYSTEM
+==================================================
+
+1. Add New Contact
+2. Search Contact
+3. Update Contact
+4. Delete Contact
+5. View All Contacts
+6. Export to CSV
+7. View Statistics
+8. Exit
+
+==================================================
+Contact 'John Doe' added successfully!
+==================================================
+
+------------------------------------------------
+12. TESTING DETAILS
+------------------------------------------------
+Test Case 1:
+- Added valid contact successfully
+
+Test Case 2:
+- Invalid phone number rejected
+
+Test Case 3:
+- Partial name search returns results
+
+Test Case 4:
+- Data saved and loaded from JSON file
+
+------------------------------------------------
+13. CHALLENGES AND SOLUTIONS
+------------------------------------------------
+Challenge:
+Handling duplicate contact names.
+
+Solution:
+Provided update option if contact already exists.
+
+Challenge:
+Validating phone numbers in different formats.
+
+Solution:
+Removed non-digit characters and checked digit length.
+
+Challenge:
+Persisting data between program runs.
+
+Solution:
+Used JSON file operations with error handling.
+
+------------------------------------------------
+14. LEARNING OUTCOME
+------------------------------------------------
+- Learned to create reusable functions
+- Understood dictionary-based data storage
+- Improved string manipulation skills
+- Gained experience with file handling
+- Built a real-world CRUD application
+
+------------------------------------------------
+END OF WEEK 3 DOCUMENTATION
+------------------------------------------------

@@ -1,0 +1,119 @@
+WEEK 7: DATA ANALYSIS WITH PANDAS
+PROJECT DOCUMENTATION
+
+Name: Mehak Tewari
+Project Title: Sales Data Analysis Dashboard
+Technology Used: Python, Pandas, Matplotlib, NumPy
+Week: 7
+
+--------------------------------------------------
+PROJECT DESCRIPTION
+--------------------------------------------------
+The Sales Data Analysis Dashboard is an advanced Python-based
+data analytics project that loads, cleans, analyzes, and visualizes
+sales data using pandas.
+
+The project simulates real-world business scenarios, allowing analysis
+of total sales, monthly trends, category-wise insights, top products,
+and customer behavior.
+
+It also demonstrates professional report generation and visualization
+techniques for data-driven decision-making.
+
+--------------------------------------------------
+OBJECTIVES
+--------------------------------------------------
+• Learn practical data analysis using pandas
+• Perform data cleaning and preprocessing (handle missing values, duplicates)
+• Generate actionable business insights from raw data
+• Create visual reports using matplotlib
+• Export Excel and image reports for decision making
+
+--------------------------------------------------
+FEATURES
+--------------------------------------------------
+✓ Load sales data from CSV and Excel files
+✓ Clean missing values and duplicate entries
+✓ Calculate total, average, and monthly sales
+✓ Analyze category-wise and top-product sales
+✓ Track monthly trends and growth rates
+✓ Generate visualizations: bar charts, line graphs, histograms
+✓ Export professional Excel reports
+✓ Maintain modular and scalable project structure
+
+--------------------------------------------------
+TOOLS & LIBRARIES USED
+--------------------------------------------------
+• pandas – data manipulation and analysis
+• numpy – numerical operations
+• matplotlib – data visualization
+• openpyxl – Excel export support
+• Jupyter Notebook – exploratory and advanced analysis
+
+--------------------------------------------------
+PROJECT STRUCTURE
+--------------------------------------------------
+week7-sales-analysis/
+│── sales_analyzer/
+│   ├── data_loader.py
+│   ├── data_cleaner.py
+│   ├── analyzer.py
+│   ├── visualizer.py
+│   └── reporter.py
+│
+│── data/
+│   ├── raw/
+│   │   └── sales_data.csv
+│   ├── processed/
+│   └── reports/
+│
+│── images/
+│   ├── top_5_product.png
+│   ├── monthly_sale_trends.png
+│   ├── sales_amount_distribution.png
+│   └── sales_by_category.png
+│
+│── notebooks/
+│   ├── exploration.ipynb
+│   └── analysis.ipynb
+│
+│── output/
+│── tests/
+│── main.py
+│── requirements.txt
+└── README.md
+
+--------------------------------------------------
+HOW TO RUN
+--------------------------------------------------
+1. Install dependencies:
+   pip install -r requirements.txt
+2. Run the program:
+   python main.py
+3. Optional: Run Jupyter notebooks for EDA and advanced analysis
+   jupyter notebook
+
+--------------------------------------------------
+WHAT I LEARNED
+--------------------------------------------------
+• Practical Pandas DataFrame operations
+• Data cleaning techniques: handling nulls, duplicates, and type conversions
+• Grouping, aggregation, and statistical analysis
+• Data visualization for business insights
+• Excel report generation
+• Modular and maintainable code structure
+• Analysis of monthly trends, top products, and category performance
+
+--------------------------------------------------
+CONCLUSION
+--------------------------------------------------
+This project provided hands-on experience in analyzing real-world
+sales data and generating meaningful business insights using Python.
+
+By integrating data cleaning, exploratory analysis, visualization,
+and reporting, I developed skills applicable to data analysis,
+business intelligence, and software engineering roles.
+
+--------------------------------------------------
+END OF DOCUMENT
+--------------------------------------------------

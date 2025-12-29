@@ -1,0 +1,213 @@
+PERSONAL FINANCE TRACKER
+Week 4 – File Handling & Final Project Documentation
+===================================================
+
+Author: Mehak Tewari
+Project Name: Personal Finance Tracker
+Language: Python
+Editor: Visual Studio Code
+
+---------------------------------------------------
+1. PROJECT DESCRIPTION
+---------------------------------------------------
+The Personal Finance Tracker is a complete Python application that helps
+users record, categorize, and analyze their personal expenses. It
+combines all concepts learned from Week 1 to Week 4 including variables,
+control flow, functions, dictionaries, file handling, and modular code
+design.
+
+The system supports persistent data storage using files and generates
+useful financial reports for better expense management.
+
+---------------------------------------------------
+2. THEORY CONCEPTS USED
+---------------------------------------------------
+1. File Operations
+   - Reading and writing data using JSON and CSV files.
+
+2. Text & CSV Files
+   - Used for data export and structured storage.
+
+3. Error Handling
+   - try-except blocks for handling file-related errors.
+
+4. Context Managers
+   - Used "with" statement for safe file operations.
+
+5. Code Organization
+   - Project structured into multiple modules.
+
+6. Debugging Techniques
+   - Handled edge cases like missing files and invalid data.
+
+---------------------------------------------------
+3. HANDS-ON PRACTICE COMPLETED
+---------------------------------------------------
+- Stored user data in files
+- Read and processed CSV data
+- Built persistent applications
+- Practiced error handling
+- Organized project into modules
+- Tested file-based applications
+
+---------------------------------------------------
+4. PROJECT FEATURES
+---------------------------------------------------
+- Add, edit, and delete expenses
+- Categorize expenses (Food, Transport, Bills, etc.)
+- Persistent storage using JSON files
+- Automatic data backup and recovery
+- Monthly expense reports
+- Category-wise breakdown
+- Budget setting and tracking
+- Export expenses to CSV
+- User-friendly menu system
+
+---------------------------------------------------
+5. FILE STRUCTURE
+---------------------------------------------------
+week4-finance-tracker/
+│
+├── finance_tracker/
+│   ├── main.py
+│   ├── expense.py
+│   ├── expense_manager.py
+│   ├── file_handler.py
+│   ├── reports.py
+│   └── utils.py
+│
+├── data/
+│   ├── expenses.json
+│   ├── backup/
+│   └── exports/
+│
+├── tests/
+│   ├── test_expense.py
+│   ├── test_file_handler.py
+│   └── test_reports.py
+│
+├── documentation.txt
+├── requirements.txt
+├── .gitignore
+└── run.py
+
+---------------------------------------------------
+6. CORE DATA STRUCTURE
+---------------------------------------------------
+Each expense is stored with the following attributes:
+- Date
+- Amount
+- Category
+- Description
+
+All expenses are stored in a list and saved to a JSON file
+for persistence between program runs.
+
+---------------------------------------------------
+7. PROGRAM LOGIC
+---------------------------------------------------
+1. Load existing expense data from file
+2. Display main menu
+3. Accept user input with validation
+4. Perform selected operation
+5. Save updated data to file
+6. Generate reports when requested
+7. Exit program safely
+
+---------------------------------------------------
+8. MODULE DESCRIPTION
+---------------------------------------------------
+main.py            → User interface and menu handling
+expense.py         → Expense class and validation
+expense_manager.py → Expense collection management
+file_handler.py    → File read/write and backup handling
+reports.py         → Report generation and statistics
+utils.py           → Helper and validation functions
+
+---------------------------------------------------
+9. INPUT VALIDATION
+---------------------------------------------------
+- Amount must be a positive number
+- Category must be valid
+- Date format validated
+- Menu choices validated
+- File errors handled safely
+
+---------------------------------------------------
+10. HOW TO RUN THE PROGRAM
+---------------------------------------------------
+1. Install Python
+2. Open terminal / command prompt
+3. Navigate to project folder
+4. Run the command:
+
+   python run.py
+
+---------------------------------------------------
+11. SAMPLE OUTPUT
+---------------------------------------------------
+============================================================
+          PERSONAL FINANCE TRACKER
+============================================================
+
+1. Add New Expense
+2. View All Expenses
+3. Search Expenses
+4. Generate Monthly Report
+5. View Category Breakdown
+6. Set/Update Budget
+7. Export Data to CSV
+8. View Statistics
+9. Backup/Restore Data
+0. Exit
+
+============================================================
+
+---------------------------------------------------
+12. TESTING DETAILS
+---------------------------------------------------
+Test Case 1:
+- Expense added and saved successfully
+
+Test Case 2:
+- File not found error handled correctly
+
+Test Case 3:
+- Invalid input rejected with message
+
+Test Case 4:
+- Data persisted after program restart
+
+---------------------------------------------------
+13. CHALLENGES AND SOLUTIONS
+---------------------------------------------------
+Challenge:
+Handling missing or corrupted data files.
+
+Solution:
+Used try-except blocks and backup recovery system.
+
+Challenge:
+Managing large amount of expense data.
+
+Solution:
+Used modular structure and efficient data handling.
+
+Challenge:
+Generating meaningful reports.
+
+Solution:
+Implemented category-wise and monthly summaries.
+
+---------------------------------------------------
+14. LEARNING OUTCOME
+---------------------------------------------------
+- Mastered file handling in Python
+- Learned modular project architecture
+- Implemented real-world data persistence
+- Improved debugging skills
+- Built a complete end-to-end application
+
+---------------------------------------------------
+END OF WEEK 4 DOCUMENTATION
+---------------------------------------------------

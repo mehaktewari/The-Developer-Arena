@@ -25,8 +25,8 @@ This internship is designed to help me:
 | ✅ Week 4 | File Handling                  | Personal Finance Tracker     | Completed   |
 | ✅ Week 5 | Object-Oriented Programming    | Library Management System    | Completed   |
 | ✅ Week 6 | External Libraries & APIs      | Weather Application          | Completed   |
-| 🟡 Week 7 | Data Analysis with Pandas      | Sales Data Analysis          | In Progress |
-| ⏳ Week 8 | Capstone Project               | Inventory Management System  | Pending     |
+| ✅ Week 7 | Data Analysis with Pandas      | Sales Data Analysis          | Completed   |
+| 💡 Week 8 | Capstone Project               | Inventory Management System  | In-progress |
 
 > 🧠 *Progress will be updated weekly as projects are completed.*
 

@@ -1,0 +1,211 @@
+WEEK 6: WORKING WITH EXTERNAL LIBRARIES
+PROJECT DOCUMENTATION
+
+Name: Mehak Tewari
+Project Title: Weather Dashboard Application
+Week: 6
+Technology: Python
+Concept Focus: External Libraries, APIs, JSON, Environment Variables
+
+==================================================
+PROJECT DESCRIPTION
+==================================================
+
+The Weather Dashboard Application is a command-line based Python project
+that fetches real-time weather data using an external weather API
+(OpenWeatherMap or similar). The application displays current weather,
+5-day forecasts, and detailed weather information in a clean and
+user-friendly format.
+
+This project focuses on integrating external libraries, working with APIs,
+handling JSON data, managing environment variables, and implementing
+robust error handling.
+
+==================================================
+OBJECTIVES
+==================================================
+
+• Learn how to use external Python libraries
+• Understand API integration and HTTP requests
+• Parse and process JSON responses
+• Manage API keys using environment variables
+• Build a modular and scalable project structure
+• Implement caching to optimize API usage
+
+==================================================
+THEORY CONCEPTS COVERED
+==================================================
+
+• Package Management using pip
+• Virtual environments (conceptual understanding)
+• datetime module for date and time handling
+• HTTP requests using requests library
+• JSON data parsing and manipulation
+• Environment variables for configuration
+• Reading and understanding API documentation
+• Error handling for network and API issues
+
+==================================================
+FEATURES OF THE APPLICATION
+==================================================
+
+✓ Fetch current weather for any city worldwide
+✓ Display detailed weather information
+✓ Show 5-day weather forecast
+✓ Temperature unit conversion (Celsius / Fahrenheit)
+✓ City search with validation
+✓ Weather condition icons and descriptions
+✓ API response caching to reduce requests
+✓ Favorite cities support
+✓ Graceful error handling
+✓ Export weather data to CSV
+
+==================================================
+TECHNICAL REQUIREMENTS IMPLEMENTED
+==================================================
+
+• External Weather API integration
+• Modular project structure
+• JSON-based API response handling
+• Environment variable configuration
+• Command-line user interface
+• Request caching system
+• Network and API error handling
+
+==================================================
+PROJECT STRUCTURE
+==================================================
+
+week6-weather-dashboard/
+│── weather_app/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── weather_api.py
+│   ├── weather_parser.py
+│   ├── weather_display.py
+│   └── main.py
+│── data/
+│   ├── cache/
+│   └── favorites.json
+│── tests/
+│   ├── test_api.py
+│   ├── test_parser.py
+│   └── test_display.py
+│── requirements.txt
+│── .env.example
+│── README.md
+└── .gitignore
+
+==================================================
+MODULE DESCRIPTION
+==================================================
+
+1. weather_api.py
+-----------------
+• Handles all API communication
+• Makes HTTP requests to weather API
+• Implements caching mechanism
+• Handles API and network errors
+
+2. weather_parser.py
+--------------------
+• Parses raw JSON API responses
+• Converts temperature units
+• Formats date and time values
+• Extracts relevant weather data
+
+3. weather_display.py
+---------------------
+• Displays weather information in formatted output
+• Uses icons and symbols for weather conditions
+• Shows current weather and forecasts
+
+4. config.py
+------------
+• Stores API-related configuration
+• Loads environment variables
+
+5. main.py
+----------
+• Entry point of the application
+• Handles user interaction and menu system
+• Integrates all modules
+
+==================================================
+HOW TO RUN THE PROJECT
+==================================================
+
+1. Get a free API key from OpenWeatherMap
+2. Copy .env.example to .env
+3. Add your API key inside .env file
+4. Install required libraries:
+   pip install -r requirements.txt
+5. Run the application:
+   python -m weather_app.main
+
+==================================================
+REQUIRED LIBRARIES
+==================================================
+
+• requests – For making HTTP API calls
+• python-dotenv – For loading environment variables
+• colorama – For colored terminal output (optional)
+
+==================================================
+SAMPLE OUTPUT
+==================================================
+
+WEATHER DASHBOARD
+========================
+
+Current Location: London, GB
+Last Updated: 2024-01-25 10:15
+
+Temperature: 8°C
+Conditions: Light Rain
+Humidity: 87%
+Wind Speed: 22 km/h
+
+5-Day Forecast:
+Thu: 9°C / 6°C
+Fri: 8°C / 4°C
+Sat: 7°C / 3°C
+Sun: 9°C / 4°C
+Mon: 10°C / 5°C
+
+==================================================
+WHAT I LEARNED
+==================================================
+
+• How to integrate third-party APIs in Python
+• Making HTTP requests using external libraries
+• Parsing and processing JSON data
+• Using environment variables securely
+• Implementing caching for performance
+• Structuring real-world Python applications
+• Handling API errors and edge cases
+
+==================================================
+QUALITY STANDARDS FOLLOWED
+==================================================
+
+✓ Clear project structure
+✓ Modular and readable code
+✓ Proper error handling
+✓ Documentation provided
+✓ External libraries used correctly
+✓ Data persistence and caching
+✓ User-friendly interface
+
+==================================================
+CONCLUSION
+==================================================
+
+The Weather Dashboard Application helped me gain practical experience
+working with external libraries and APIs. This project strengthened my
+understanding of real-world Python development, API integration, and
+professional coding practices.
+
+==================================================
+END OF DOCUMENT
+==================================================

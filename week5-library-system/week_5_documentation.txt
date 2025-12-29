@@ -1,0 +1,194 @@
+WEEK 5: OBJECT-ORIENTED PROGRAMMING (OOP)
+PROJECT DOCUMENTATION
+
+Name: Mehak Tewari
+Project Title: Library Management System using OOP
+Week: 5
+Technology: Python
+Concept Focus: Object-Oriented Programming Basics
+
+==================================================
+PROJECT DESCRIPTION
+==================================================
+
+The Library Management System is a console-based application built using
+Object-Oriented Programming principles in Python. The system helps librarians
+manage books, members, borrowing, and returning operations efficiently.
+It models real-world entities such as Books, Members, and Libraries using
+classes and objects.
+
+This project demonstrates how OOP concepts can be applied to build
+structured, reusable, and maintainable software.
+
+==================================================
+OBJECTIVES
+==================================================
+
+• Understand and apply core OOP concepts
+• Learn how to design classes for real-world systems
+• Implement class relationships and interactions
+• Practice file handling with object data
+• Build a complete menu-driven application
+
+==================================================
+OOP CONCEPTS USED
+==================================================
+
+• Classes and Objects
+• Encapsulation
+• Constructors (__init__ method)
+• Instance Variables and Methods
+• Class Relationships (Library manages Books and Members)
+• Data Abstraction
+• Modular Programming
+
+==================================================
+SYSTEM FEATURES
+==================================================
+
+✓ Add new books to the library
+✓ Register new library members
+✓ Borrow books with due date tracking
+✓ Return books and check overdue status
+✓ Search books by title, author, or ISBN
+✓ View all books and members
+✓ Track overdue books
+✓ Save and load data using JSON files
+✓ User-friendly menu-driven interface
+✓ Error handling and input validation
+
+==================================================
+CLASS STRUCTURE
+==================================================
+
+1. Book Class
+----------------
+Attributes:
+• title
+• author
+• isbn
+• year
+• available
+• borrowed_by
+• due_date
+• date_added
+
+Methods:
+• check_out()
+• return_book()
+• is_overdue()
+• days_overdue()
+• to_dict()
+• from_dict()
+• __str__()
+
+2. Member Class
+----------------
+Attributes:
+• name
+• member_id
+• borrowed_books
+• max_books
+
+Methods:
+• borrow_book()
+• return_book()
+
+3. Library Class
+----------------
+Attributes:
+• books (dictionary)
+• members (dictionary)
+
+Methods:
+• add_book()
+• remove_book()
+• find_book()
+• register_member()
+• find_member()
+• borrow_book()
+• return_book()
+• search_books()
+• get_statistics()
+
+==================================================
+FILE HANDLING & DATA PERSISTENCE
+==================================================
+
+• Books are saved in books.json
+• Members are saved in members.json
+• Backup files are stored in the backup folder
+• Data is automatically loaded when the program starts
+• Errors like missing files are handled gracefully
+
+==================================================
+PROJECT FOLDER STRUCTURE
+==================================================
+
+week5-library-system/
+│── library_system/
+│   ├── __init__.py
+│   ├── book.py
+│   ├── member.py
+│   ├── library.py
+│   └── main.py
+│── data/
+│   ├── books.json
+│   ├── members.json
+│   └── backup/
+│── tests/
+│   ├── test_book.py
+│   ├── test_member.py
+│   └── test_library.py
+│── requirements.txt
+│── README.md
+└── .gitignore
+
+==================================================
+HOW TO RUN THE PROJECT
+==================================================
+
+1. Open terminal or command prompt
+2. Navigate to the project folder:
+   cd week5-library-system
+3. Run the application:
+   python -m library_system.main
+
+==================================================
+SAMPLE MENU
+==================================================
+
+1. Add New Book
+2. Register New Member
+3. Borrow Book
+4. Return Book
+5. Search Books
+6. View All Books
+7. View All Members
+8. View Overdue Books
+9. Save & Exit
+0. Exit Without Saving
+
+==================================================
+WHAT I LEARNED
+==================================================
+
+• How to design classes for real-world applications
+• Difference between attributes and methods
+• Managing relationships between multiple classes
+• Implementing OOP principles in Python
+• Persisting object data using JSON files
+• Writing clean, modular, and reusable code
+
+==================================================
+CONCLUSION
+==================================================
+
+The Library Management System project strengthened my understanding of
+Object-Oriented Programming. By implementing real-life entities using classes,
+I learned how OOP makes programs easier to manage, extend, and debug.
+This project prepared me for building larger and more complex software systems.
+
+==================================================
+END OF DOCUMENT
+==================================================
